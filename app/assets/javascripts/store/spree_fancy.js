@@ -39,12 +39,6 @@ $(function(){
       touchEnabled: false
     });
 
-    $("#home-slider .product-description").dotdotdot({
-      watch: true,
-      height: 250
-    });
-
-
   // Make buttons from radio inoputs
   $( "#product-variants .variants-buttons" ).buttonset();
   $( ".payment-method-selector").buttonset();
