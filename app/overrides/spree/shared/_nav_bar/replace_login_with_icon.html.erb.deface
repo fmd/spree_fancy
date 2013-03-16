@@ -1,5 +1,5 @@
 <!-- replace 'code:contains("t(:login)")' -->
 <!-- sequence :after => 'auth_shared_login_bar' -->
 <%= link_to spree.login_path do %>
-  <i class="icon-user" title="Login"></i> Log in
+  <i class="icon-user" title="Login"></i>
 <% end %>

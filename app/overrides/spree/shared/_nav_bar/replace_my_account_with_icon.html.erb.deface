@@ -1,5 +1,5 @@
 <!-- replace 'code:contains("t(:my_account)")' -->
 <!-- sequence :after => 'auth_shared_login_bar' -->
 <%= link_to spree.account_path do %>
-  <i class="icon-user" title="My Account"></i> My Account
+  <i class="icon-user" title="My Account"></i>
 <% end %>
