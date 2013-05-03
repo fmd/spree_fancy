@@ -24,18 +24,23 @@
 .slider-pager {
   position: absolute;
   width: 100%;
-  top: -40px;
+  top: -35px;
 }
 
-.slider-pager, .bx-wrapper {
+.bx-wrapper {
   .bx-pager.bx-default-pager {
+    .bx-pager-item {
+      display: inline-block;
+      padding-right: 3px;
+    }
+
     a {
       background-color: #dedede;
 
       &.active, &:hover {
         background-color: $c_green;
       }
-    }  
+    }
   }
 }
 
