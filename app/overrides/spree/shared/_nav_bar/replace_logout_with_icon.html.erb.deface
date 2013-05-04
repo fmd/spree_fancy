@@ -1,5 +1,5 @@
 <!-- replace 'code:contains("t(:logout)")' -->
 <!-- sequence :after => 'auth_shared_login_bar' -->
-<%= link_to spree.destroy_user_session_path do %>
+<%= link_to spree.logout_path do %>
   <i class="icon-signout" title="Log out"></i>
 <% end %>
